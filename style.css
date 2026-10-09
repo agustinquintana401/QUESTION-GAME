@@ -35,3 +35,46 @@ button:hover{
 .button-wrong {
     background-color:red !important;
 }
+body {
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.quiz-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+.quiz-container p {
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    width: 100%;
+    max-width: 280px;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .quiz-container h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    button {
+        padding: 18px;
+    }
+}

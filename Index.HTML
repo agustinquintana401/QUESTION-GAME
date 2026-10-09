@@ -1,0 +1,21 @@
+<!doctype HTML>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>practice game</title>
+</head>
+<body>
+    <h1>QUESTION GAME</h1>
+    <div class="quiz-container">
+       <h3>QUESTIONS AND ANSWERS</h3> 
+        <p>cuantos meses hay en un año?</p>
+        <button class="quiz-btn" onclick="verificarRespuesta('incorrecta',this)">10 meses</button>
+        <button class="quiz-btn" onclick="verificarRespuesta('correcta',this)">12 meses</button>
+        <button class="quiz-btn" onclick="verificarRespuesta('incorrecta',this)">11 meses</button>
+        
+        <p id="resultado-quiz"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
